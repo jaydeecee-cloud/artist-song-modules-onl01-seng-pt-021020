@@ -19,6 +19,7 @@ class Song
   end
 
   extend Memorable::ClassMethods
+  extend Memorable::ClassMethods
 
   def artist=(artist)
     @artist = artist
