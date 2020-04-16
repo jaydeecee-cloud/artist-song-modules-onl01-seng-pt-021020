@@ -6,11 +6,6 @@ class Song
 
   @@songs = []
 
-  def initialize
-    super
-    @songs = []
-  end
-
   def self.all
     @@songs
   end
