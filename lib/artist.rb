@@ -15,10 +15,10 @@ class Artist
     @@artists
   end
 
-  extend Memorable::ClassMethods
+  # extend Memorable::ClassMethods
   extend Findable::ClassMethods
   include Paramable::InstanceMethods
-  include Memorable::InstanceMethods
+  # include Memorable::InstanceMethods
 
   def add_song(song)
     @songs << song
